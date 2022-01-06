@@ -94,4 +94,18 @@ cluster   110s
 tenants   110s
 ```
 
+To see the Argo CD UI, you'll first need the password
+
+```shell
+kubectl get secret/argocd-initial-admin-secret -n argocd -o jsonpath='{.data.password}' | base64 -d ; echo
+```
+
+Then port-forward to see it in your browser (using `admin` as the username).
+
+```shell
+kubectl -n argocd port-forward service/argocd-server 8080:443
+```
+
+# Enjoy
+
 Feel free to fork this and deploy your own fork to play around with it.
