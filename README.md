@@ -1,0 +1,1 @@
+# example-kubernetes-go-repo
