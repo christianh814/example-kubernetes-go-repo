@@ -108,4 +108,6 @@ kubectl -n argocd port-forward service/argocd-server 8080:443
 
 # Enjoy
 
-Feel free to fork this and deploy your own fork to play around with it.
+Fork and Enjoy!
+
+> :warning: Feel free to fork this and play around with it, but remember if you'll have to change the applicationsets configuration and where the bases are pointing to if you're chanigng names of things
