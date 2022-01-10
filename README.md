@@ -36,7 +36,7 @@ cluster-XXXX/ # 1
 │       ├── kustomization.yaml
 │       └── test-project.yaml
 ├── core # 4
-│   ├── argocd
+│   ├── gitops-controller
 │   │   └── kustomization.yaml
 │   └── sample-admin-config
 │       ├── kustomization.yaml
