@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 bases:
-- https://gitlab.com/christianh814/test-applicationsets/list-generator/k8s/overlays/noing-blue#main
+- https://gitlab.com/christianh814/test-applicationsets/list-generator/k8s/overlays/noing-blue?ref=main
 
 patchesJson6902:
   - target:
